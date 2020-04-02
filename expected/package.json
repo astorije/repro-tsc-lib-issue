@@ -1,0 +1,10 @@
+{
+  "name": "expected",
+  "private": true,
+  "scripts": {
+    "build": "tsc"
+  },
+  "devDependencies": {
+    "typescript": "3.8.3"
+  }
+}
