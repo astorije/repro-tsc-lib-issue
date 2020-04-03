@@ -45,6 +45,8 @@ This is because the `@types/node` dependency contains 2 files ([this one](https:
 
 Those libs then get implicitly added to the compilation.
 
+_Note that running `tsc` and `tsc --build` produces the same thing here._
+
 ## The problem
 
 Imagine you am building a project for the browser, with an explicit target of `es2015`. By not including extra libraries, you rely on the type checker to barf if you use features not supported in ES2015.
